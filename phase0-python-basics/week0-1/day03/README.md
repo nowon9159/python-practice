@@ -35,5 +35,5 @@
 
 ## ✅ 체크리스트
 
-- [ ] **리스트·인덱스·len**: fruits 리스트로 [0], [1], len 출력을 확인했다.
-- [ ] **append·for**: append 후 for로 모든 항목을 출력했다.
+- [x] **리스트·인덱스·len**: fruits 리스트로 [0], [1], len 출력을 확인했다.
+- [x] **append·for**: append 후 for로 모든 항목을 출력했다.

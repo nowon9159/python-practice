@@ -33,5 +33,5 @@
 
 ## ✅ 체크리스트
 
-- [ ] **변수 4개**: name, age, height, is_student를 넣고 print로 출력했다.
-- [ ] **type()**: 네 변수의 타입을 type()으로 출력해 확인했다.
+- [x] **변수 4개**: name, age, height, is_student를 넣고 print로 출력했다.
+- [x] **type()**: 네 변수의 타입을 type()으로 출력해 확인했다.
