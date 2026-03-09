@@ -37,8 +37,8 @@
 
 ## 📌 참고 (복습할 개념)
 
-- dp[용량] 또는 dp[i][용량], 넣는 경우 / 안 넣는 경우
-- Coin Change, Subset Sum 변형
+- **0/1 Knapsack**: dp[i][w] = "0..i번 물건만 사용하고 용량 w일 때 최대 가치". 각 물건에 대해 **(1) 넣지 않음** → dp[i-1][w], **(2) 넣음** → w >= weight[i]일 때 value[i] + dp[i-1][w - weight[i]]. 둘 중 max. 1D로 줄이면 w를 **큰 값부터** 갱신해서 같은 물건을 두 번 쓰지 않게 한다.
+- **0/1 vs Unbounded**: 0/1은 "한 번만 선택"이므로 전이에서 dp[i-1][...]를 쓴다. Unbounded(같은 물건 여러 개 가능)는 dp[w - weight[i]]를 그대로 쓰면 같은 물건을 다시 쓸 수 있다. Coin Change(동전 무한)는 Unbounded 변형, Partition Equal Subset Sum은 0/1 변형(합이 절반이 되는 부분집합 존재 여부)이다.
 
 ---
 

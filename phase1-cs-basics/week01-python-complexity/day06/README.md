@@ -32,11 +32,11 @@
 
 ## 📌 참고 (복습 범위)
 
-- Day 1: 타입힌트, dataclass, collections
-- Day 2: Big-O, 재귀, Fibonacci
-- Day 3: Two Pointers, Sliding Window
-- Day 4: Hashing (Two Sum, Group Anagrams, Top K)
-- Day 5: Stack, Monotonic Stack (Valid Parentheses, Daily Temperatures)
+- **Day 1**: 타입힌트로 시그니처 명시, dataclass로 구조체처럼 쓰기, collections의 defaultdict/Counter/deque로 로그 파싱·카운팅·버퍼 표현.
+- **Day 2**: Big-O로 복잡도 표기, 재귀의 base case와 recurrence, Fibonacci에서 재귀 → 메모이제이션 → Tabulation 흐름.
+- **Day 3**: Two Pointers(두 인덱스 이동으로 정렬 배열·펠린드롬 등), Sliding Window(연속 구간을 밀어 가며 부분합·최대 길이 등).
+- **Day 4**: Hashing — Two Sum(보수 저장), Group Anagrams(키로 그룹), Top K(빈도 세고 상위 k개).
+- **Day 5**: Stack으로 괄호 매칭, Monotonic Stack으로 "다음 더 큰 원소" 찾기(Valid Parentheses, Daily Temperatures).
 
 ---
 

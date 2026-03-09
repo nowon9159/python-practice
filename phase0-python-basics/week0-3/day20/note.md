@@ -1,0 +1,2 @@
+- dict 관련해서 파일 한줄한줄 읽을 때 dict_log[line] = dict_log.get(line, 0) + 1 이런 구문이 사용됐는데, 읽어서 value 값가져올때 default 값 설정을 안해주면 key가 init이 안돼서 for문 안찾아짐. 설정 해주려면 0 으로 default 값 설정해주고 만들어진 dict로 다시 실제 라인 읽어서 +1 해줘야될듯. 아 근데 f 안에 라인 두번 for문으로 읽는게 안됐던거 같음 왜 그런거지.
+- 지금까지의 최대 개수를 뽑기위해서 max_value 와 max_word 변수 값을 두고, 이걸 이용해서 이전 값과 계속 비교해 max_word 값을 구하는 과정이 좀 어려웠는데 재밌었다.

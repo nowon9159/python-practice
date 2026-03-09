@@ -33,9 +33,9 @@
 
 ## 📌 참고 (복습 범위)
 
-- Day 8–9: Linked List, Fast/Slow
-- Day 10–11: Binary Search 기본·변형·정답 범위
-- Day 12–13: BST, 순회, BFS/DFS
+- **Day 8–9**: Linked List — Node(head/tail), append/prepend/delete 시 포인터 갱신. Fast/Slow Pointer로 cycle detection, prev/curr/next로 reverse.
+- **Day 10–11**: Binary Search — 기본(인덱스 반환), lower/upper bound(첫/마지막 위치). 정답 범위: possible(x)가 단조일 때 이진 탐색으로 최소/최대 x 찾기.
+- **Day 12–13**: BST — insert/search/delete(자식 0/1/2개), 불변식 left < root < right. 순회: inorder(정렬 순), preorder, postorder. 트리 탐색: BFS(큐, 레벨별), DFS(재귀 또는 스택).
 
 ---
 

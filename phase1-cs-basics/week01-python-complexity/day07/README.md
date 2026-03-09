@@ -33,8 +33,8 @@
 
 ## 📌 참고 (복습할 개념)
 
-- **LRU**: Least Recently Used, 캐시 용량 초과 시 가장 오래 사용하지 않은 항목 제거
-- **구현**: OrderedDict (move_to_end) 또는 Doubly Linked List + HashMap으로 접근 순서 유지
+- **LRU**: Least Recently Used. 캐시 용량이 꽉 찼을 때 **가장 오래 사용하지 않은** 항목을 하나 골라 제거하는 정책이다. get/put 시 "방금 쓴" 항목은 "가장 최근 사용"으로 취급해, 제거 후보에서 밀려나게 한다.
+- **구현**: (1) **OrderedDict** — Python에서는 삽입 순서가 유지되므로, get/put 시 해당 키를 `move_to_end`로 맨 뒤로 보내면 앞쪽이 "오래 안 쓴 것"이 된다. (2) **Doubly Linked List + HashMap** — 노드를 앞뒤로 연결해 "접근 순서" 리스트를 만들고, dict로 키→노드 조회를 O(1)로 한다. 맨 앞을 LRU, 맨 뒤를 MRU로 두고 삽입·삭제·이동을 O(1)로 하면 get/put 모두 O(1)이 된다.
 
 ---
 

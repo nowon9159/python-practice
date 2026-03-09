@@ -39,8 +39,8 @@
 
 ## 📌 참고 (복습할 개념)
 
-- mid 계산 overflow 방지, left/right 갱신
-- "첫 번째 위치" → lower bound, "마지막 위치" → upper bound
+- **mid 계산·left/right 갱신**: mid는 `(left + right) // 2`로 두고, overflow가 걱정되면 `left + (right - left) // 2`를 쓴다. target이 mid보다 크면 left = mid+1, 작으면 right = mid-1(기본형). **lower/upper bound**에서는 "같을 때" left를 옮길지 right를 옮길지에 따라 "첫 번째" 또는 "마지막" 위치가 정해지므로, 템플릿을 정해 두고 외우는 편이 안전하다.
+- **Lower bound / Upper bound**: "target **이상**인 **첫 번째** 인덱스"가 필요하면 lower bound(왼쪽을 줄일 때 조건을 조정). "target **초과**인 첫 번째" 또는 "target인 **마지막** 인덱스 + 1"이 필요하면 upper bound. "몇 개 있는지"는 upper - lower로 구할 수 있다.
 
 ---
 

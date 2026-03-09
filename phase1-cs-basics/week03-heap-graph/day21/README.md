@@ -34,11 +34,11 @@
 
 ## 📌 참고 (복습 범위)
 
-- Day 15: Heap, Kth Largest, Task Scheduler
-- Day 16–17: 그래프 표현, BFS/DFS, Island
-- Day 18: 위상정렬 (Kahn)
-- Day 19: Union-Find
-- Day 20: Dijkstra
+- **Day 15**: Heap(min-heap, heapq), K번째 큰 원소는 heap 크기 k 유지, Task Scheduler는 빈도·cooldown을 heap으로 스케줄링.
+- **Day 16–17**: 인접 리스트(희소)·인접 행렬(has_edge O(1)), 그래프 BFS/DFS·방문 체크. Island 패턴: 2D grid 이중 for + (r,c)에서 DFS/BFS, 방문한 컴포넌트 재방문 안 함.
+- **Day 18**: 위상정렬은 DAG에서만. Kahn: in-degree 0인 노드부터 큐에서 꺼내 제거, 이웃 in-degree 감소. 사이클 있으면 결과 길이 < V.
+- **Day 19**: Union-Find — find(루트)+path compression, union(두 집합 합침). 연결 요소 개수·사이클 감지에 사용.
+- **Day 20**: Dijkstra — non-negative 가중치, heap으로 (거리, 노드), relaxation으로 최단거리 갱신.
 
 ---
 

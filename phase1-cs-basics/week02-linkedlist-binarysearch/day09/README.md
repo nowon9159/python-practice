@@ -31,8 +31,8 @@
 
 ## 📌 참고 (복습할 개념)
 
-- Cycle detection: slow 1칸, fast 2칸, 만나면 cycle
-- Reverse: prev, curr, next 갱신 순서
+- **Cycle detection (Fast/Slow)**: slow 포인터는 한 칸씩, fast는 두 칸씩 이동한다. 리스트에 cycle이 있으면 fast가 결국 slow를 "한 바퀴 돌아서" 따라잡아 **같은 노드에서 만난다**. cycle이 없으면 fast가 먼저 null에 도달한다. 만나면 cycle 있음, null이면 없음으로 판별할 수 있다.
+- **Reverse**: **prev**, **curr**, **next** 세 포인터를 둔다. curr의 next를 prev로 바꾸기 전에 "다음 노드"를 next에 저장해 두고, 한 칸씩 prev←curr, curr←next로 밀어 가면 한 번 순회로 역순이 된다. 순서를 잘못 바꾸면 링크가 끊기므로 그리면서 확인하는 것이 좋다.
 
 ---
 

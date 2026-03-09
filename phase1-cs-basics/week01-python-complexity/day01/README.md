@@ -36,10 +36,10 @@
 
 ## 📌 참고 (복습할 개념)
 
-- **uv**: `uv venv`, `uv init`, `uv add`, `uv run`, `uv sync`
-- **타입힌트**: `typing` (List, Dict, Optional, Union), 함수 시그니처에 일관되게 붙이기
-- **dataclass**: `@dataclass`, 필드 기본값, `__post_init__`
-- **collections**: `defaultdict`, `Counter`, `deque` 사용 예
+- **uv**: Python 패키지·가상환경 도구. `uv venv`로 가상환경을 만들고, `uv init`으로 프로젝트 초기화(pyproject.toml 생성), `uv add`로 의존성 추가, `uv run python ...`으로 해당 환경에서 스크립트를 실행한다. `uv sync`로 lock 파일 기준으로 의존성을 맞춘다.
+- **타입힌트**: 함수 인자와 반환값에 타입을 적어 두는 것. `typing` 모듈의 `List`, `Dict`, `Optional`, `Union` 등을 쓰고, 함수 시그니처에 일관되게 붙이면 나중에 읽기와 자동완성이 수월해진다.
+- **dataclass**: `@dataclass`를 붙이면 `__init__`, `__repr__` 등을 자동 생성해 준다. 필드에 기본값을 줄 수 있고, 초기화 직후 처리가 필요하면 `__post_init__`에 넣는다.
+- **collections**: `defaultdict`는 키가 없을 때 기본값을 쓰고, `Counter`는 요소 개수를 세기 좋고, `deque`는 앞뒤 삽입/삭제가 O(1)인 큐·스택에 적합하다. 로그 파싱에서는 레벨별 카운트·빈도·최근 N줄 버퍼 등에 쓸 수 있다.
 
 ---
 

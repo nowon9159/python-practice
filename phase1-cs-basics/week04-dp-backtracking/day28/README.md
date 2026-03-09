@@ -32,7 +32,10 @@
 
 ## 📌 참고 (복습 범위)
 
-- Week 1~4 전체 (위 카탈로그 목록)
+- **Week 1**: Two Pointers(두 인덱스 이동), Sliding Window(연속 구간), Hash(카운팅·존재·그룹핑), Stack(괄호 매칭), Monotonic Stack(다음/이전 더 큰 원소).
+- **Week 2**: Linked List(포인터 갱신), Fast/Slow(cycle), Binary Search(기본·lower/upper·정답범위), Tree(BST·순회), BFS/DFS.
+- **Week 3**: Heap(Top K), 인접 리스트/행렬, Island(격자 컴포넌트), 위상정렬(Kahn), Union-Find, Dijkstra.
+- **Week 4**: DP(Memo/Tab, 2D LCS/Edit, Knapsack), Backtracking(선택→재귀→복원), Monotonic Deque(구간 최대).
 
 ---
 

@@ -38,8 +38,8 @@
 
 ## 📌 참고 (복습할 개념)
 
-- overlapping subproblems, optimal substructure
-- 공간 최적화: 1D만 유지 (필요 시)
+- **DP가 적용되는 조건**: (1) **Overlapping subproblems** — 같은 부분 문제가 여러 번 반복해서 나온다(예: fib(n-2)가 여러 경로에서 호출됨). (2) **Optimal substructure** — 큰 문제의 최적해가 작은 부분 문제의 최적해로부터 구해진다. 이 두 가지가 있으면 재귀만 쓰면 중복 계산이 많아지므로, 캐시나 테이블로 한 번만 계산해 두는 DP가 유리하다.
+- **Memoization vs Tabulation**: Memo는 **재귀 + 캐시**(top-down). 처음 호출할 때만 계산하고 같은 인자면 캐시에서 반환. Tabulation은 **반복문 + 테이블**(bottom-up). 인덱스 0, 1, … 순서로 채워 나가서 목표 인덱스까지 채운다. 1D DP일 때는 "직전 몇 개만 쓰면 되므로" 변수 몇 개만 두고 공간을 O(1)로 줄일 수 있다.
 
 ---
 

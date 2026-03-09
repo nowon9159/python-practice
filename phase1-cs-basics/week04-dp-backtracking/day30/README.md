@@ -33,8 +33,8 @@
 
 ## 📌 참고 (Phase 2 미리보기)
 
-- Week 5: 프로세스/스레드/코루틴, GIL, 소켓, HTTP 서버, 메모리, 프로파일링
-- Week 6~8: 분산(CAP, Raft, KV, MapReduce), DB(B-Tree, LSM, WAL), 캐시·설계
+- **Week 5**: 프로세스·스레드·코루틴 비교, GIL 이해, 소켓 프로그래밍, HTTP 서버 직접 구현, 메모리 관리, 프로파일링(cProfile 등). 미니 프로젝트: 비동기 로그 수집기.
+- **Week 6~8**: 분산 시스템(CAP, Raft, 분산 KV, MapReduce), DB 내부(B-Tree, LSM, WAL, 트랜잭션), 캐싱·레이트리밋·시스템 설계(URL 단축기, 메시지 큐 등). Phase 2는 "알고리즘"보다 "시스템·인프라"에 가깝다.
 
 ---
 
