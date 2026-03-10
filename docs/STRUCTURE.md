@@ -9,18 +9,20 @@
 ```
 python-practice/
 ├── .cursor/
-├── docs/                 # 이 가이드, 패턴 카탈로그 등
-├── phase0-python-basics/ # Day 1–21 (Python 완전 입문, 선택)
-├── phase1-cs-basics/     # Day 22–51 (또는 Phase 0 생략 시 Day 1–30)
-├── phase2-systems/       # Day 52–81
-├── phase3-advanced/      # Day 82–111
-├── templates/            # (선택) 공통 코드 템플릿
-├── pyproject.toml        # (선택) uv/pip 공통 의존성·설정
+├── docs/                   # 이 가이드, 패턴 카탈로그 등
+├── phase0-python-basics/   # Day 1–21 (Python 완전 입문, 선택)
+├── phase0.5-python-bridge/ # Phase 1·2·3 초석. day01~day06 일별 폴더 + 각 README.
+├── phase1-cs-basics/       # Day 22–51 (또는 Phase 0 생략 시 Day 1–30)
+├── phase2-systems/         # Day 52–81
+├── phase3-advanced/        # Day 82–111
+├── templates/              # (선택) 공통 코드 템플릿
+├── pyproject.toml          # (선택) uv/pip 공통 의존성·설정
 └── README.md
 ```
 
 - **Phase 0**을 쓰면: phase1의 day01 = **커리큘럼 Day 22**.
 - **Phase 0**을 건너뛰면: phase1의 day01 = **커리큘럼 Day 1**로 두고 진행하면 됨.
+- **Phase 0.5**: Phase 0 끝난 뒤 Phase 1 가기 전에 할 수 있는 **기초 보강** 구간. `phase0.5-python-bridge/` 아래 **day01~day06** 일별 폴더가 있고, 각 `dayNN/README.md` 에 설명식으로 할 일·참고·체크리스트가 있음. 순서대로 진행하면 됨.
 
 ---
 
